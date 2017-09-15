@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Movie Marathon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Dancing+Script|Gloria+Hallelujah|Indie+Flower|Permanent+Marker|Princess+Sofia" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <h1> Movie Marathon Generator</h1>
+    <nav id="top-nav">
+    <ul>
+      <li><a href="index.html" class="btn btn-primary">Generator</a></li>
+      <li><a href="index2.html" class="btn btn-primary">My Marathon</a></li>
+    </ul>
+    </nav>
+  </header>
+  <section>
+    <h3> Let's Watch Some Movies!</h3>
+    <p> The movie marathon generator will help you to create an epic movie marathon for rainy and lazy days or any other time you just want to watch some movies. To get started just type in an actor/actress, select some movies, then scroll down and generate some snacks for your
+      movie marathon. Then head over to the my marathon page where you can see the movies you chose. </p>
+  </section>
+  <section id="container">
+  <form id="movie-form">
+    <input id="movieInput" type="text" name="search" placeholder="Enter Actor/Actress">
+    <button type="submit" id="marathon-btn">Generate Marathon</button>
+  </form>
+</section>
+
+
+  <section id='mainDiv' class="movies">
+
+
+  </section>
+<section id="btn-container">
+  <button id=sweetBtn onClick="saltySnack()"> Something Salty</button>
+  <div id="saltySection"></div>
+  <button id=saltyBtn onClick="sweetSnack()"> Something Sweet</button>
+
+  <div id="sweetSection"></div>
+  </section>
+  <footer>
+
+    <nav id="bottomNav">
+      <ul>
+      <li><a href="index.html">Generator</a></li>
+      <li><a href="index2.html">My Marathon</a></li>
+    </ul>
+    </nav>
+    <small class="idTag"> ~ Created by Makayla Clausen ~</small>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+
+</html>

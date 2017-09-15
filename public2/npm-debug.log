@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'lite-server' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.1
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'lite-server', null ]
+7 verbose cache add spec lite-server
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'lite-server',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'lite-server',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed lite-server@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for lite-server
+11 info addNameTag [ 'lite-server', 'latest' ]
+12 silly mapToRegistry name lite-server
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'lite-server',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'lite-server',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/lite-server
+17 verbose addNameTag registry:https://registry.npmjs.org/lite-server not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/lite-server
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 1:30:21 PM
+21 verbose request id f2b7722ba18f2fe9
+22 http request GET https://registry.npmjs.org/lite-server
+23 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 151.101.44.162:443
+24 info attempt registry request try #2 at 1:30:31 PM
+25 http request GET https://registry.npmjs.org/lite-server
+26 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 151.101.44.162:443
+27 info attempt registry request try #3 at 1:31:31 PM
+28 http request GET https://registry.npmjs.org/lite-server
+29 verbose stack Error: connect ECONNREFUSED 151.101.184.162:443
+29 verbose stack     at Object.exports._errnoException (util.js:907:11)
+29 verbose stack     at exports._exceptionWithHostPort (util.js:930:20)
+29 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1077:14)
+30 verbose cwd /Users/makaylaclausen/galvanize/unit-1/movieMarathon/public
+31 error Darwin 16.7.0
+32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "lite-server"
+33 error node v4.6.1
+34 error npm  v2.15.9
+35 error code ECONNREFUSED
+36 error errno ECONNREFUSED
+37 error syscall connect
+38 error Error: connect ECONNREFUSED 151.101.184.162:443
+38 error     at Object.exports._errnoException (util.js:907:11)
+38 error     at exports._exceptionWithHostPort (util.js:930:20)
+38 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1077:14)
+38 error  { [Error: connect ECONNREFUSED 151.101.184.162:443]
+38 error   code: 'ECONNREFUSED',
+38 error   errno: 'ECONNREFUSED',
+38 error   syscall: 'connect',
+38 error   address: '151.101.184.162',
+38 error   port: 443 }
+39 error If you are behind a proxy, please make sure that the
+39 error 'proxy' config is set properly.  See: 'npm help config'
+40 verbose exit [ 1, true ]

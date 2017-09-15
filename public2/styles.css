@@ -1,0 +1,221 @@
+html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4.5vh;
+  font-family: 'Permanent Marker', cursive;
+}
+
+nav ul li {
+  text-align: center;
+  display: inline-block;
+}
+
+#top-nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.btn.btn-primary {
+  width: 100vw;
+  font-size: 3vh;
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color: #3380cc;
+}
+
+h3 {
+  text-align: center;
+  font-size: 4vh;
+  font-family: 'Permanent Marker', cursive;
+}
+
+p {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2vh;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#movieInput {
+  width: 100%;
+  height: 8vh;
+  font-size: 2vh;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#marathon-btn {
+  width: 80%;
+  border-radius: 100px;
+  box-shadow: 1px 1px 20px black;
+  color: white;
+  margin-top: 2vh;
+  margin-left: 6vh;
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color: #3380cc;
+}
+
+#sweetBtn, #saltyBtn {
+  width: 80%;
+  border-radius: 100px;
+  box-shadow: 1px 1px 20px black;
+  color: white;
+  font-size: 1em;
+  margin-top: 2vh;
+  margin-left: 6vh;
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color: #3380cc;
+}
+
+#sweetSection, #saltySection {
+  text-align: center;
+  font-size: 4em;
+}
+
+#bottomNav a {
+  color: #3380cc;
+}
+
+#bottomNav {
+  text-align: center;
+  /*font-size: 2.5em;*/
+  margin-top: 20%;
+}
+
+small {
+  /*margin-top: 20%;*/
+  display: flex;
+  justify-content: center;
+  /*font-size: 2em;*/
+  font-family: 'Dancing Script', cursive;
+}
+
+img {
+  display: flex;
+  align-items: center;
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+/*desktop*/
+
+@media screen and (min-width: 480px) {
+  body {
+    background-image: url('images/movie-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  h1 {
+    text-align: left;
+    font-size: 6vh;
+  }
+  nav li {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 8px;
+  }
+  .btn.btn-primary {
+    font-size: 2vh;
+    width: 10vw;
+  }
+  h3 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 5vh;
+  }
+  p {
+    font-size: 4vh;
+    color: black;
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  #movieInput {
+    margin-top: 5vh;
+    width: 80%;
+    height: 10vh;
+    font-size: 7vh;
+  }
+  #marathon-btn {
+    width: 50%;
+    font-size: 2em;
+  }
+  #sweetBtn, #saltyBtn {
+    width: 50%;
+    font-size: 2em;
+    margin-left: 27%;
+  }
+  #sweetSection, #saltySection {
+    font-size: 2em;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+  }
+  #bottomNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 1.5em;
+  }
+  #bottomNav a {
+    font-family: 'Permanent Marker', cursive;
+  }
+  small {
+    font-size: 3vh;
+    margin-top: 0;
+  }
+  .movies {
+    display: flex;
+    justify-content: center;
+    /*justify-content: space-around;*/
+    flex-wrap: wrap;
+  }
+  .movies div {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: center;
+  }
+  h2 {
+    text-align: center;
+    color: black;
+    cursor: pointer;
+  }
+  #movieSection {
+    width: 100%;
+    color: black;
+  }
+  h4 {
+    font-size: 10vh;
+  }
+}
