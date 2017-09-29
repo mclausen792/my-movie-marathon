@@ -18,3 +18,6 @@ An instructional video can be found [here](https://youtu.be/zrjTCBtYbKo)
 * Generate a random salty snack
 * Generate a random sweet snack
 * Save movies that you want to watch on the separate "My Marathon" page.
+
+## Check it out!
+Follow this [link](https://first-64-project.firebaseapp.com/) to try it out for yourself. 
