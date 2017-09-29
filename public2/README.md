@@ -20,4 +20,4 @@ An instructional video can be found [here](https://youtu.be/zrjTCBtYbKo)
 * Save movies that you want to watch on the separate "My Marathon" page.
 
 ## Check it out!
-Follow this [link](https://first-64-project.firebaseapp.com/) to try it out for yourself. 
+Follow this [link](https://marathon-generator.firebaseapp.com/) to try it out for yourself. 
